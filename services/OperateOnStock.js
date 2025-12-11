@@ -1,0 +1,3 @@
+function OperateOnStock(operation, identifier){
+    
+}

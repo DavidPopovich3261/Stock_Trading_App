@@ -1,0 +1,2 @@
+function filterStocksByPrice(givenPrice, above){
+}
