@@ -1,15 +1,15 @@
 import { stockMarket } from "../data/data.js";
 
-function searchStock(identifier){
+export function searchStock(identifier){
     let stocksfound = stockMarket.stocks.filter((stock)=>{
         if (identifier == stock.id  || identifier == stock.name){
             return true
         }
     })
-    if (stocks[0] != undefined){
-        return stocks
+    if (stocksfound[0] != undefined){
+        return stocksfound
     }else {
         console.log("No similar ID found.");
-        return stocks
+        return []
     }
 }

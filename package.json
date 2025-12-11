@@ -17,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/DavidPopovich3261/Stock_Trading_App/issues"
   },
-  "homepage": "https://github.com/DavidPopovich3261/Stock_Trading_App#readme"
+  "homepage": "https://github.com/DavidPopovich3261/Stock_Trading_App#readme",
+  "dependencies": {
+    "analiza-sync": "^1.0.1"
+  }
 }
