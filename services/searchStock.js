@@ -1,7 +1,7 @@
 import { stockMarket } from "../data/data.js";
 
 function searchStock(identifier){
-    let stocks = stockMarket.stocks.filter((stock)=>{
+    let stocksfound = stockMarket.stocks.filter((stock)=>{
         if (identifier == stock.id  || identifier == stock.name){
             return true
         }
